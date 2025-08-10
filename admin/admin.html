@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Admin - Upload Résultats UCC</title>
+  <link rel="stylesheet" href="../assets/css/style.css" />
+</head>
+<body>
+   <nav class="navbar" role="navigation" aria-label="Menu principal">
+    <div class="container">
+      <div class="logo" aria-label="Logo UCC">
+      <img src="/assets/images/logo.jpg" alt="Logo/>
+        <svg viewBox="0 0 64 64" fill="#ffcb05" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">
+          <circle cx="32" cy="32" r="30" stroke="#012a5a" stroke-width="3" fill="#012a5a" />
+          <text x="32" y="38" text-anchor="middle" font-family="Poppins, sans-serif" font-weight="700" font-size="24" fill="#ffcb05" letter-spacing="2">UCC</text>
+        </svg>
+      </div>
+      <div class="menu-toggle" aria-label="Ouvrir le menu" role="button" tabindex="0">
+        <span></span><span></span><span></span>
+      </div>
+      <ul>
+        <li><a href="/index.html" >Accueil</a></li>
+        <li><a href="/resultats.html">Résultats</a></li>
+        <li><a href="/stats.html">Statistiques</a></li>
+        <li><a href="#">Admin</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="container admin-main" role="main">
+    <h1>Uploader un fichier PDF des résultats</h1>
+
+    <form id="uploadForm" class="upload-form" aria-label="Formulaire d'upload PDF">
+      <input
+        type="file"
+        id="pdfFile"
+        accept=".pdf"
+        required
+        aria-required="true"
+        aria-describedby="uploadHelp"
+      />
+      <button type="submit">upload</button>
+    </form>
+    <p id="statusMessage" class="upload-status" role="alert" aria-live="polite"></p>
+
+    <p id="uploadHelp" style="margin-top: 1rem; color: #555; font-size: 0.9rem;">
+      Le fichier PDF doit être placé dans <code>uploads/resultats-ucc-2025.pdf</code> pour être traité par le script Python.
+    </p>
+  </main>
+
+  <footer>
+    &copy; 2025 Université Catholique du Congo - Tous droits réservés
+  </footer>
+
+  <script src="../assets/js/main.js" defer></script>
+  <script>
+    document.getElementById("uploadForm").addEventListener("submit", function (e) {
+      e.preventDefault();
+      const file = document.getElementById("pdfFile").files[0];
+      if (!file) {
+        alert("Veuillez sélectionner un fichier PDF.");
+        return;
+      }
+      document.getElementById("statusMessage").textContent =
+        `✅ Fichier sélectionné : ${file.name}\nConversion à faire avec le script Python (pdf-to-json.py)`;
+    });
+  </script>
+</body>
+</html>

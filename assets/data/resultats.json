@@ -1,0 +1,107 @@
+[
+  {
+    "nom": "Banza Joseph",
+    "matricule": "UCC2023112",
+    "resultat": "reussi"
+  },
+  {
+    "nom": "Kabongo Marie",
+    "matricule": "UCC2023056",
+    "resultat": "echoue"
+  },
+  {
+    "nom": "Mukendi David",
+    "matricule": "UCC2023123",
+    "resultat": "renvoye",
+    "cause": "Indiscipline grave"
+  },
+  {
+    "nom": "Kisimba Alice",
+    "matricule": "UCC2023098",
+    "resultat": "reussi"
+  },
+  {
+    "nom": "Lukusa Jean",
+    "matricule": "UCC2023105",
+    "resultat": "reussi"
+  },
+  {
+    "nom": "Ngoy Patricia",
+    "matricule": "UCC2023110",
+    "resultat": "echoue"
+  },
+  {
+    "nom": "Tshibanda Paul",
+    "matricule": "UCC2023120",
+    "resultat": "renvoye",
+    "cause": "Absences injustifiees"
+  },
+  {
+    "nom": "Mbuyi Clara",
+    "matricule": "UCC2023135",
+    "resultat": "reussi"
+  },
+  {
+    "nom": "Kambale Eric",
+    "matricule": "UCC2023142",
+    "resultat": "echoue"
+  },
+  {
+    "nom": "Kalala Sophie",
+    "matricule": "UCC2023150",
+    "resultat": "renvoye",
+    "cause": "Plagiat"
+  },
+  {
+    "nom": "Mokolo Jean",
+    "matricule": "UCC2023167",
+    "resultat": "reussi"
+  },
+  {
+    "nom": "Bokamba Lucie",
+    "matricule": "UCC2023175",
+    "resultat": "reussi"
+  },
+  {
+    "nom": "Kiboko Alain",
+    "matricule": "UCC2023183",
+    "resultat": "echoue"
+  },
+  {
+    "nom": "Lemba Grace",
+    "matricule": "UCC2023190",
+    "resultat": "renvoye",
+    "cause": "Fraude"
+  },
+  {
+    "nom": "Ngalula Didier",
+    "matricule": "UCC2023201",
+    "resultat": "reussi"
+  },
+  {
+    "nom": "Mputu Esther",
+    "matricule": "UCC2023215",
+    "resultat": "echoue"
+  },
+  {
+    "nom": "Kanyinda Jules",
+    "matricule": "UCC2023220",
+    "resultat": "renvoye",
+    "cause": "Violence verbale"
+  },
+  {
+    "nom": "Tshibangu Alice",
+    "matricule": "UCC2023232",
+    "resultat": "reussi"
+  },   
+  {
+    "nom": "Mokolo Jean",
+    "matricule": "UCC2023167",
+    "resultat": "reussi"
+  },
+  {
+    "nom": "Bokamba Lucie",
+    "matricule": "UCC2023175",
+    "resultat": "reussi"
+  }
+]

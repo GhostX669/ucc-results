@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Résultats - UCC</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <nav class="navbar" role="navigation" aria-label="Menu principal">
+    <div class="container">
+     <div class="logo" aria-label="Logo UCC">
+      <img src="assets/images/logo.jpg" alt="Logo/>
+        <svg viewBox="0 0 64 64" fill="#ffcb05" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">
+          <circle cx="32" cy="32" r="30" stroke="#012a5a" stroke-width="3" fill="#012a5a" />
+          <text x="32" y="38" text-anchor="middle" font-family="Poppins, sans-serif" font-weight="700" font-size="24" fill="#ffcb05" letter-spacing="2">UCC</text>
+        </svg>
+      </div>
+      <div class="menu-toggle" aria-label="Ouvrir le menu" role="button" tabindex="0">
+        <span></span><span></span><span></span>
+      </div>
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="resultats.html" class="active" aria-current="page">Résultats</a></li>
+        <li><a href="stats.html">Statistiques</a></li>
+        <li><a href="admin/admin.html">Admin</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="container" role="main">
+    <header>
+      <h1>Liste des résultats des étudiants</h1>
+      <p>Filtrez et recherchez les étudiants par nom ou matricule.</p>
+    </header>
+
+    <section class="filters" role="region" aria-label="Filtres des résultats">
+      <button data-filter="all" class="active" aria-pressed="true">Tous</button>
+      <button data-filter="reussi" aria-pressed="false">Réussis</button>
+      <button data-filter="echoue" aria-pressed="false">Échoués</button>
+      <button data-filter="renvoye" aria-pressed="false">Renvoyés</button>
+    </section>
+
+    <input
+      type="search"
+      id="searchInput"
+      class="search-input"
+      placeholder="Rechercher par nom ou matricule..."
+      aria-label="Rechercher un étudiant"
+    />
+
+    <section id="resultList" class="result-list" tabindex="0" aria-live="polite" aria-atomic="true">
+      <!-- Résultats générés ici -->
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Université Catholique du Congo - Tous droits réservés
+  </footer>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>

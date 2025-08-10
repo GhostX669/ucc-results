@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Détails Étudiant - UCC</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <nav class="navbar" role="navigation" aria-label="Menu principal">
+    <div class="container">
+        <div class="logo" aria-label="Logo UCC">
+      <img src="assets/images/logo.jpg" alt="Logo/>
+        <svg viewBox="0 0 64 64" fill="#ffcb05" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">
+          <circle cx="32" cy="32" r="30" stroke="#012a5a" stroke-width="3" fill="#012a5a" />
+          <text x="32" y="38" text-anchor="middle" font-family="Poppins, sans-serif" font-weight="700" font-size="24" fill="#ffcb05" letter-spacing="2">UCC</text>
+        </svg>
+      </div>
+      <div class="menu-toggle" aria-label="Ouvrir le menu" role="button" tabindex="0">
+        <span></span><span></span><span></span>
+      </div>
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="resultats.html">Résultats</a></li>
+        <li><a href="stats.html">Statistiques</a></li>
+        <li><a href="admin/admin.html">Admin</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="container" role="main">
+    <h1>Détails de l'étudiant</h1>
+    <section id="studentDetails" class="student-details"></section>
+  </main>
+
+  <footer>
+    &copy; 2025 Université Catholique du Congo - Tous droits réservés
+  </footer>
+
+  <script src="assets/js/details.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Connexion Admin - UCC</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+ <nav class="navbar" role="navigation" aria-label="Menu principal">
+    <div class="container">
+      <div class="logo" aria-label="Logo UCC">
+      <img src="assets/images/logo.jpg" alt="Logo/>
+        <svg viewBox="0 0 64 64" fill="#ffcb05" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">
+          <circle cx="32" cy="32" r="30" stroke="#012a5a" stroke-width="3" fill="#012a5a" />
+          <text x="32" y="38" text-anchor="middle" font-family="Poppins, sans-serif" font-weight="700" font-size="24" fill="#ffcb05" letter-spacing="2">UCC</text>
+        </svg>
+      </div>
+      <div class="menu-toggle" aria-label="Ouvrir le menu" role="button" tabindex="0">
+        <span></span><span></span><span></span>
+      </div>
+      <ul>
+        <li><a href="index.html" >Accueil</a></li>
+        <li><a href="resultats.html">Résultats</a></li>
+        <li><a href="stats.html">Statistiques</a></li>
+        <li><a href="admin/admin.html">Admin</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="login-main">
+    <h1>Connexion - Espace Admin</h1>
+    <form onsubmit="login(event)" class="login-form">
+      <input
+        type="password"
+        id="pass"
+        placeholder="Mot de passe admin"
+        required
+        autocomplete="off"
+      />
+      <button type="submit" class="btn-primary">Se connecter</button>
+    </form>
+    <p id="msg" class="error-msg"></p>
+  </main>
+
+  <script>
+    function login(e) {
+      e.preventDefault();
+      const pass = document.getElementById("pass").value;
+      if (pass === "ucc2025") {
+        window.location.href = "admin/admin.html";
+      } else {
+        document.getElementById("msg").textContent = "Mot de passe incorrect.";
+      }
+    }
+  </script>
+</body>
+</html>
