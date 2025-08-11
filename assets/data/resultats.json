@@ -63,12 +63,12 @@
     "resultat": "reussi"
   },
   {
-    "nom": "Kiboko Alain",
+    "nom": "Kibo Ali",
     "matricule": "UCC2023183",
     "resultat": "echoue"
   },
   {
-    "nom": "Lemba Grace",
+    "nom": "Lema ceni",
     "matricule": "UCC2023190",
     "resultat": "renvoye",
     "cause": "Fraude"
@@ -95,7 +95,7 @@
     "resultat": "reussi"
   },   
   {
-    "nom": "Mokolo Jean",
+    "nom": "Moke Jean",
     "matricule": "UCC2023167",
     "resultat": "reussi"
   },
@@ -126,7 +126,7 @@
     "resultat": "echoue"
   },
   {
-    "nom": "Kanyinda Jules",
+    "nom": "Kanyi huler",
     "matricule": "UCC2023220",
     "resultat": "renvoye",
     "cause": "Violence verbale"
@@ -147,9 +147,9 @@
     "resultat": "echoue"
   },
   {
-    "nom": "Weya Reine",
+    "nom": "Weya bango Reine",
     "matricule": "23/ucc/2728/24",
-    "resultat": "renvoye",
+    "resultat": "reussi , renvoye",
     "cause": "collaboration pendant la session"
   },
   {
@@ -161,12 +161,6 @@
     "nom": "Mputu Esther",
     "matricule": "UCC2023215",
     "resultat": "echoue"
-  },
-  {
-    "nom": "Kanyinda Jules",
-    "matricule": "UCC2023220",
-    "resultat": "renvoye",
-    "cause": "Violence verbale"
   },
   {
     "nom": "Tshibangu Alice",
