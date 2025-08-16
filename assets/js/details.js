@@ -25,9 +25,17 @@ document.addEventListener('DOMContentLoaded', async () => {
         <p><strong>Matricule:</strong> ${student.matricule}</p>
         <p><strong>Résultat:</strong> ${student.resultat.charAt(0).toUpperCase() + student.resultat.slice(1)}</p>
         ${student.resultat === 'renvoye' && student.cause ? `<p><strong>Cause du renvoi:</strong> ${student.cause}</p>` : ''}
-        <a href="resultats.html" class="btn-primary">Retour aux résultats</a>
+        <br>
+        <a id="btn-pdf" href="/uploads/resultats-ucc-2025.pdf" target="_blank" class="btn">
+          📄 Voir mon relevé en PDF
+        </a>
+        <br>
+        <a href="resultats.html" class="btn">⬅ Retour aux résultats</a>
+        <br>
+        <a href="../index.html" class="btn">⬅ Retour à laccueil</a>
       </article>
     `;
+    
   } catch (error) {
     container.innerHTML = '<p>Erreur lors du chargement des détails.</p>';
     console.error(error);

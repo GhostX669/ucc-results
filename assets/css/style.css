@@ -381,6 +381,13 @@ main {
   background: #e6b804;
   box-shadow: 0 7px 20px rgba(230, 184, 4, 0.9);
 }
+.pdf-container {
+  border: 2px solid #004080; /* bleu UCC */
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 20px 0;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
 
 .upload-status {
   margin-top: 20px;

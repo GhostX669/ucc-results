@@ -1,222 +1,217 @@
 [
   {
     "nom": "Banza Joseph",
-    "matricule": "UCC2023112",
+    "matricule": "23/UCC/2701/24",
     "resultat": "reussi"
   },
   {
     "nom": "Kabongo Marie",
-    "matricule": "UCC2023056",
+     "matricule": "23/UCC/2702/24",
     "resultat": "echoue"
   },
   {
     "nom": "Mukendi David",
-    "matricule": "UCC2023123",
-    "resultat": "renvoye",
+    "matricule": "23/UCC/2703/24",
+    "resultat": "reussi&renvoye",
     "cause": "Indiscipline grave"
   },
   {
     "nom": "Kisimba Alice",
-    "matricule": "UCC2023098",
+    "matricule": "23/UCC/2704/24",
     "resultat": "reussi"
   },
   {
     "nom": "Lukusa Jean",
-    "matricule": "UCC2023105",
+    "matricule": "23/UCC/2705/24",
     "resultat": "reussi"
   },
   {
     "nom": "Ngoy Patricia",
-    "matricule": "UCC2023110",
+    "matricule": "23/UCC/2706/24",
     "resultat": "echoue"
   },
   {
     "nom": "Tshibanda Paul",
-    "matricule": "UCC2023120",
+    "matricule": "23/UCC/2707/24",
     "resultat": "renvoye",
     "cause": "Absences injustifiees"
   },
   {
     "nom": "Mbuyi Clara",
-    "matricule": "UCC2023135",
+    "matricule": "23/UCC/2735/24",
     "resultat": "reussi"
   },
   {
     "nom": "Kambale Eric",
-    "matricule": "UCC2023142",
+    "matricule": "23/UCC/2742/24",
     "resultat": "echoue"
   },
   {
     "nom": "Kalala Sophie",
-    "matricule": "UCC2023150",
+    "matricule": "23/UCC/2750/24",
     "resultat": "renvoye",
     "cause": "Plagiat"
   },
   {
     "nom": "Mokolo Jean",
-    "matricule": "UCC2023167",
+    "matricule": "23/UCC/23167/24",
     "resultat": "reussi"
   },
   {
     "nom": "Bokamba Lucie",
-    "matricule": "UCC2023175",
+    "matricule": "23/UCC/23175/24",
     "resultat": "reussi"
   },
   {
     "nom": "Kibo Ali",
-    "matricule": "UCC2023183",
+    "matricule": "23/UCC/23183/24",
     "resultat": "echoue"
   },
   {
     "nom": "Lema ceni",
-    "matricule": "UCC2023190",
+    "matricule": "23/UCC/23190/24",
     "resultat": "renvoye",
     "cause": "Fraude"
   },
   {
     "nom": "Ngalula Didier",
-    "matricule": "UCC2023201",
+    "matricule": "23/UCC/3201/24",
     "resultat": "reussi"
   },
   {
     "nom": "Mputu Esther",
-    "matricule": "UCC2023215",
+    "matricule": "23/UCC/3215/24",
     "resultat": "echoue"
   },
   {
     "nom": "Kanyinda Jules",
-    "matricule": "UCC2023220",
+    "matricule": "23/UCC/3220/24",
     "resultat": "renvoye",
     "cause": "Violence verbale"
   },
   {
     "nom": "Tshibangu Alice",
-    "matricule": "UCC2023232",
+    "matricule": "23/UCC/3232/24",
     "resultat": "reussi"
-  },   
+  },
   {
     "nom": "Moke Jean",
-    "matricule": "UCC2023167",
+    "matricule": "23/UCC/23167/24",
     "resultat": "reussi"
   },
   {
     "nom": "Bokamba Lucie",
-    "matricule": "UCC2023175",
+    "matricule": "23/UCC/23175/24",
     "resultat": "reussi"
   },
   {
     "nom": "Kiboko Alain",
-    "matricule": "UCC2023183",
+    "matricule": "23/UCC/23183/24",
     "resultat": "echoue"
   },
-  {
-    "nom": "Weya Reine",
-    "matricule": "23/UCC/2728/24",
-    "resultat": "renvoye",
-    "cause": "collaboration pendant la session"
-  },
+
   {
     "nom": "Ngalula Didier",
-    "matricule": "UCC2023201",
+    "matricule": "23/UCC/3201/24",
     "resultat": "reussi"
   },
   {
     "nom": "Mputu Esther",
-    "matricule": "UCC2023215",
+    "matricule": "23/UCC/3215/24",
     "resultat": "echoue"
   },
   {
     "nom": "Kanyi huler",
-    "matricule": "UCC2023220",
+    "matricule": "23/UCC/3220/24",
     "resultat": "renvoye",
     "cause": "Violence verbale"
   },
   {
     "nom": "Tshibangu Alice",
-    "matricule": "UCC2023232",
+    "matricule": "23/UCC/3232/24",
     "resultat": "reussi"
   },
   {
     "nom": "Mokolo Jean",
-    "matricule": "UCC2023167",
+    "matricule": "23/UCC/23167/24",
     "resultat": "reussi"
   },
   {
     "nom": "Kiboko Alain",
-    "matricule": "UCC2023183",
+    "matricule": "23/UCC/23183/24",
     "resultat": "echoue"
   },
   {
     "nom": "Weya bango Reine",
-    "matricule": "23/ucc/2728/24",
-    "resultat": "reussi , renvoye",
+    "matricule": "23/UCC/2728/24",
+    "resultat": "reussi&renvoye",
     "cause": "collaboration pendant la session"
   },
   {
     "nom": "Ngalula Didier",
-    "matricule": "UCC2023201",
+    "matricule": "23/UCC/3201/24",
     "resultat": "reussi"
   },
   {
     "nom": "Mputu Esther",
-    "matricule": "UCC2023215",
+    "matricule": "23/UCC/3215/24",
     "resultat": "echoue"
   },
   {
     "nom": "Tshibangu Alice",
-    "matricule": "UCC2023232",
+    "matricule": "23/UCC/3232/24",
     "resultat": "reussi"
   },
   {
     "nom": "Mokolo Jean",
-    "matricule": "UCC2023167",
+    "matricule": "23/UCC/23167/24",
     "resultat": "reussi"
   },
   {
     "nom": "Bokamba Lucie",
-    "matricule": "UCC2023175",
+    "matricule": "23/UCC/23175/24",
     "resultat": "reussi"
   },
   {
     "nom": "Kiboko Alain",
-    "matricule": "UCC2023183",
+    "matricule": "23/UCC/23183/24",
     "resultat": "echoue"
   },
   {
     "nom": "Lemba Grace",
-    "matricule": "UCC2023190",
-    "resultat": "renvoye",
+    "matricule": "23/UCC/23190/24",
+    "resultat": "reussi&renvoye",
     "cause": "Fraude"
   },
   {
     "nom": "Ngalula Didier",
-    "matricule": "UCC2023201",
+    "matricule": "23/UCC/3201/24",
     "resultat": "reussi"
   },
   {
     "nom": "Mputu Esther",
-    "matricule": "UCC2023215",
+    "matricule": "23/UCC/3215/24",
     "resultat": "echoue"
   },
   {
     "nom": "Kanyinda Jules",
-    "matricule": "UCC2023220",
+    "matricule": "23/UCC/3220/24",
     "resultat": "renvoye",
     "cause": "Violence verbale"
   },
   {
     "nom": "Tshibangu Alice",
-    "matricule": "UCC2023232",
+    "matricule": "23/UCC/3232/24",
     "resultat": "reussi"
   },
   {
     "nom": "Mbokolo Jean",
-    "matricule": "UCC2023167",
+    "matricule": "23/UCC/23167/24",
     "resultat": "reussi"
   },
   {
     "nom": "Mokolo Jules",
-    "matricule": "UCC2023167",
+    "matricule": "23/UCC/23167/24",
     "resultat": "echoue"
   }
 ]
