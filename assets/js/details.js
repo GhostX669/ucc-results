@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         <p><strong>Résultat:</strong> ${student.resultat.charAt(0).toUpperCase() + student.resultat.slice(1)}</p>
         ${student.resultat === 'renvoye' && student.cause ? `<p><strong>Cause du renvoi:</strong> ${student.cause}</p>` : ''}
         <br>
-        <a id="btn-pdf" href="/uploads/resultats-ucc-2025.pdf" target="_blank" class="btn">
+        <a id="btn-pdf" href="../../uploads/resultats-ucc-2025.pdf" target="_blank" class="btn">
           📄 Voir mon relevé en PDF
         </a>
         <br>
