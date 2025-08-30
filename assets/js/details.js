@@ -25,6 +25,8 @@ document.addEventListener('DOMContentLoaded', async () => {
         <p><strong>Matricule:</strong> ${student.matricule}</p>
         <p><strong>Résultat:</strong> ${student.resultat.charAt(0).toUpperCase() + student.resultat.slice(1)}</p>
         ${student.resultat === 'renvoye' && student.cause ? `<p><strong>Cause du renvoi:</strong> ${student.cause}</p>` : ''}
+        ${student.resultat === 'reussi&renvoye' && student.cause ? `<p><strong>Cause du renvoi:</strong> ${student.cause}</p>` : ''}
+        <br>
         <br>
         <a id="btn-pdf" href="../../uploads/resultats-ucc-2025.pdf" target="_blank" class="btn">
           📄 Voir mon relevé en PDF
