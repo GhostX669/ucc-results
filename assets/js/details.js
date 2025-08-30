@@ -27,7 +27,6 @@ document.addEventListener('DOMContentLoaded', async () => {
         ${student.resultat === 'renvoye' && student.cause ? `<p><strong>Cause du renvoi:</strong> ${student.cause}</p>` : ''}
         ${student.resultat === 'reussi&renvoye' && student.cause ? `<p><strong>Cause du renvoi:</strong> ${student.cause}</p>` : ''}
         <br>
-        <br>
         <a href="https://ghostx669.github.io/ucc-results/uploads/resultats-ucc-2025.pdf" 
    target="_blank" class="btn">
   📄 Voir mon relevé en PDF
